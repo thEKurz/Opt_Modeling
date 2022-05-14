@@ -1,4 +1,6 @@
 from sklearn.cluster import AgglomerativeClustering
+import pandas as pd
+import numpy as np
 #These functions are no longer needed now that we the precomputed cluster class
 
 def get_clusters(corr, cluster_number = 45, Thresh = None):
